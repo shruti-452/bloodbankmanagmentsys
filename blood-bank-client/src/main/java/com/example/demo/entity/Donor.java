@@ -23,7 +23,7 @@ public class Donor {
 	@Id
 	int id;
 	@NotNull(message = "Required")
-	@Range(min = 18,max=30,message = "Age should be between 18 and 40")
+	@Range(min = 18,max=80,message = "Age should be between 18 and 70")
 	int age;
 	@NotNull(message = "Required")
 	String donorName;
